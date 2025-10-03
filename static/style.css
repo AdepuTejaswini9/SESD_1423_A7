@@ -81,3 +81,87 @@ h1, h2, h3, h4 {
 .account-item:last-child {
     border-bottom: none;
 }
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4 {
+    color: #005f73;
+}
+
+.card {
+    background-color: #e9f5f9;
+    border: 1px solid #94d2bd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.action-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.action-form select,
+.action-form input,
+.action-form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.action-form button {
+    background-color: #006d77;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.action-form button:hover {
+    background-color: #005f73;
+}
+
+.notifications {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.student-notifications ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.student-notifications li {
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    border-left: 4px solid #ee9b00;
+}
+
+.account-item {
+    padding: 10px 0;
+    border-bottom: 1px dashed #ccc;
+}
+.account-item:last-child {
+    border-bottom: none;
+
+}
